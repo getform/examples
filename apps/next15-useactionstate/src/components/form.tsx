@@ -44,7 +44,15 @@ export default function ContactForm() {
   return (
     <div className=" flex items-center justify-center text-slate-900">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-        <p className="text-gray-600 mb-2">[Getform Example]</p>
+        <p className="text-gray-600 mb-2">
+          <a
+            href="https://getform.io?ref=next15-useactionstate"
+            target="_blank"
+            className="text-blue-600 hover:text-blue-800"
+          >
+            Visit Getform to get your own form ID.
+          </a>
+        </p>
         <h2 className="text-2xl font-bold mb-2">Contact us</h2>
         <p className="text-gray-600 mb-6">
           What is the issue? If you're reporting a bug, what are the steps you
